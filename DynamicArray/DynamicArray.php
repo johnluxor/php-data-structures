@@ -1,5 +1,10 @@
 <?php
 
+namespace johnluxor\phpDataStructures\DynamicArray;
+
+use RuntimeException;
+use SplFixedArray;
+
 /**
  * Class DynamicArray
  *
