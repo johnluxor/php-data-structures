@@ -1,0 +1,22 @@
+$array = new DynamicArray(4);
+$array->push(1);
+$array->push(2);
+$array->push(3);
+$array->push(4);
+$array->push(5);
+$array->push(6);
+$array->push(7);
+
+$array->prepend(0);
+echo '-----';
+echo $array->pop() . PHP_EOL;
+echo '-----';
+
+echo $array->get(3) . PHP_EOL;
+$array->delete(4);
+$array->delete(4);
+echo $array->find(2) . PHP_EOL;
+
+$array->insert(5, 999);
+
+print_r($array);
