@@ -1,0 +1,20 @@
+
+$linkedList = new SingleLinkedList;
+
+//var_dump($linkedList->isEmpty());
+//var_dump($linkedList->size());
+$linkedList->pushFront(2);
+$linkedList->pushFront(1);
+//var_dump($linkedList->popFront());
+$linkedList->pushBack(3);
+$linkedList->pushBack(4);
+//$linkedList->popBack();
+//var_dump($linkedList->front());
+//var_dump($linkedList->back());
+//var_dump($linkedList->getValueAt(3));
+$linkedList->insert(3, 5);
+//$linkedList->remove(2);
+//$linkedList->removeValue(3);
+//var_dump($linkedList->value_n_from_end(4));
+$linkedList->reverse();
+print_r($linkedList);
